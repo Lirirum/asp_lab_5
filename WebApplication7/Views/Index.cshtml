@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Форма для перевірки даних</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+
+</head>
+<body>
+    <div class="main">
+    <form method="post" action="/Form/SetCookie">
+        <div class="form-group">
+            <label for="value">Значення:</label>
+            <input type="text" id="value" name="value"  required />      
+            <label for="expiry">Дата і час старіння:</label>
+            <input type="datetime-local" id="expiry" name="expiry"  required />
+        </div>
+        <button type="submit">Встановити Cookie</button>
+    </form>
+    </div>
+</body>
+</html>

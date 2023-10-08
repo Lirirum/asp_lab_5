@@ -1,0 +1,23 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Форма для введення даних</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+
+</head>
+<body>
+    <div class="main">
+        <form method="post" action="/Form/Index">
+            <div class="form-group">
+                <label for="value">Значення:</label>
+                <input value="@ViewBag.CookieValue" type="text" id="value" name="value" />             
+            </div>
+            <button type="submit" id="button_two" >Повернутися</button>
+        </form>
+    </div>
+</body>
+</html>

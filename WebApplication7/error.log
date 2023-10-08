@@ -1,0 +1,12 @@
+08.10.2023 10:44:04: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+08.10.2023 10:47:22: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+08.10.2023 10:47:48: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+08.10.2023 11:20:57: The view 'CheckCookie' was not found. The following locations were searched:
+/Views/Form/CheckCookie.cshtml
+/Views/Shared/CheckCookie.cshtml
+08.10.2023 11:24:02: The view '~/Views/Cookie.cshtm' was not found. The following locations were searched:
+~/Views/Cookie.cshtm
+08.10.2023 11:24:53: The view '~/Views/Cookie.cshtm' was not found. The following locations were searched:
+~/Views/Cookie.cshtm
+08.10.2023 11:26:21: The view '~/Views/Cookie.cshtm' was not found. The following locations were searched:
+~/Views/Cookie.cshtm
